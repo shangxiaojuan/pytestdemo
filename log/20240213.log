@@ -1,0 +1,119 @@
+2024-02-13 09:26:02,733 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 09:26:02,804 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 09:26:02,902 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 09:26:26,670 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 09:26:26,742 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 09:26:26,833 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 09:26:26,930 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-13 09:27:14,471 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 09:27:14,547 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 09:27:14,619 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 09:27:14,721 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-13 14:45:00,890 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 14:45:00,978 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 14:45:01,073 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 14:45:01,173 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-13 14:51:35,082 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 14:52:53,435 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 14:53:45,702 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 14:54:09,862 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 14:54:45,681 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 14:55:04,451 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 14:56:47,133 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 14:57:06,446 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 14:57:06,520 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 14:57:06,593 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-13 14:57:06,666 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-13 14:57:52,168 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 15:03:02,385 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 15:04:14,793 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 15:05:33,554 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 15:12:08,292 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 15:13:13,978 - D:\code-exercise\test0107\log\20240213.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-13 16:06:56,456 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-13 16:06:56,458 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-13 16:26:24,448 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-13 16:26:24,451 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-13 16:26:24,451 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\usr_info.json文件.......
+2024-02-13 16:26:57,643 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-13 16:26:57,645 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-13 16:26:57,646 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\usr_info.json文件.......
+2024-02-13 16:27:25,657 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-13 16:27:25,659 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-13 16:27:25,659 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\usr_info.json文件.......
+2024-02-13 16:28:32,000 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-13 16:28:32,002 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-13 16:28:32,002 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\usr_info.json文件.......
+2024-02-13 16:28:32,003 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'usrname': '张三', 'age': 18, 'tel': '15656573433', 'email': 'zhansan@corp.netease.com', 'family': ['father', 'mother', 'brother']}
+2024-02-13 16:28:52,592 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-13 16:28:52,594 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-13 16:28:52,594 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\usr_info.json文件.......
+2024-02-13 16:28:52,595 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'usrname': '张三', 'age': 18, 'tel': '15656573433', 'email': 'zhansan@corp.netease.com', 'family': ['father', 'mother', 'brother']}
+2024-02-13 16:29:18,193 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-13 16:29:18,194 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-13 16:29:18,194 - D:\code-exercise\test0107\log\20240213.log - INFO - 加载D:\code-exercise\test0107\data\usr_info.json文件.......
+2024-02-13 16:29:18,195 - D:\code-exercise\test0107\log\20240213.log - INFO - 读取到数据==> {'usrname': '张三', 'age': 18, 'tel': '15656573433', 'email': 'zhansan@corp.netease.com', 'family': ['father', 'mother', 'brother']}

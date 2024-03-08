@@ -1,0 +1,1484 @@
+2024-02-18 15:02:37,780 - log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-18 15:02:37,781 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 15:02:37,781 - log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-18 15:02:37,782 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 15:02:38,227 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 15:02:38,232 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 15:02:38,233 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 15:02:38,233 - log - INFO - 接口请求头 ==>> {
+    "Token": "415b05c1d0499db6c4028ae532214f63"
+}
+2024-02-18 15:02:38,233 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 15:02:38,233 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 15:02:38,234 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 15:02:38,234 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 15:02:38,234 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 15:02:38,335 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 15:02:38,335 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 15:02:38,335 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 15:02:38,340 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 15:02:38,340 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 15:02:38,341 - log - INFO - 接口请求头 ==>> {
+    "Token": "415b05c1d0499db6c4028ae532214f63"
+}
+2024-02-18 15:02:38,341 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 15:02:38,341 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 15:02:38,341 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 15:02:38,341 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 15:02:38,341 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 15:02:38,448 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 15:02:38,449 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 15:02:38,449 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 15:02:38,454 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 15:02:38,455 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 15:02:38,455 - log - INFO - 接口请求头 ==>> {
+    "Token": "415b05c1d0499db6c4028ae532214f63"
+}
+2024-02-18 15:02:38,455 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 15:02:38,455 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 15:02:38,455 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 15:02:38,455 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 15:02:38,456 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 15:02:38,556 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 15:02:38,556 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 15:02:38,556 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 15:02:38,566 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 15:02:38,566 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 15:02:38,566 - log - INFO - 接口请求头 ==>> {
+    "token": "415b05c1d0499db6c4028ae532214f63"
+}
+2024-02-18 15:02:38,566 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 15:02:38,566 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 15:02:38,566 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 15:02:38,567 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 15:02:38,567 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 15:02:38,655 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 15:02:38,655 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 15:02:38,658 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 15:02:38,658 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 15:02:38,658 - log - INFO - 接口请求头 ==>> null
+2024-02-18 15:02:38,659 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 15:02:38,659 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 15:02:38,659 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 15:02:38,659 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 15:02:38,659 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 15:02:38,828 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 15:02:38,828 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"admin","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 15:02:38,833 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 15:02:38,833 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 15:02:38,833 - log - INFO - 接口请求头 ==>> null
+2024-02-18 15:02:38,833 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 15:02:38,833 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 15:02:38,834 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 15:02:38,834 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 15:02:38,834 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 15:02:39,031 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 15:02:39,031 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15 21:01:44","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 16:34:41,714 - log - INFO - 加载D:\code-exercise\test0107\data/user_info.yml文件.......
+2024-02-18 16:34:41,715 - log - INFO - 读取到数据==> {'user_info': {'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}}
+2024-02-18 16:35:08,537 - log - INFO - 加载D:\code-exercise\test0107\data/user_info.yml文件.......
+2024-02-18 16:35:08,538 - log - INFO - 读取到数据==> {'user_info': {'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}}
+2024-02-18 16:35:29,762 - log - INFO - 加载D:\code-exercise\test0107\data/user_info.yml文件.......
+2024-02-18 16:35:29,763 - log - INFO - 读取到数据==> {'user_info': {'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}}
+2024-02-18 16:39:28,744 - log - INFO - 加载D:\code-exercise\test0107\data/user_info.yml文件.......
+2024-02-18 16:39:28,745 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 16:40:04,430 - log - INFO - 加载D:\code-exercise\test0107\data/user_info.yml文件.......
+2024-02-18 16:40:04,431 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 16:54:43,734 - log - INFO - 加载D:\code-exercise\test0107\data/user_info.yml文件.......
+2024-02-18 16:54:43,737 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 17:00:42,647 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:00:42,649 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:00:49,373 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:00:49,374 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:00:49,374 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:00:49,375 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:00:49,375 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:00:49,376 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 17:00:49,681 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:00:49,684 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:00:49,684 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:00:49,684 - log - INFO - 接口请求头 ==>> {
+    "Token": "23f61c4085490b649a22dc5daf91debb"
+}
+2024-02-18 17:00:49,684 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:00:49,684 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:00:49,684 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:00:49,685 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:00:49,685 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:00:49,760 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:00:49,760 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:00:49,760 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:00:49,765 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:00:49,765 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:00:49,765 - log - INFO - 接口请求头 ==>> {
+    "Token": "23f61c4085490b649a22dc5daf91debb"
+}
+2024-02-18 17:00:49,765 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:00:49,766 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:00:49,766 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:00:49,766 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:00:49,766 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:00:49,842 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:00:49,844 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:00:49,844 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:00:49,847 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:00:49,847 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:00:49,847 - log - INFO - 接口请求头 ==>> {
+    "Token": "23f61c4085490b649a22dc5daf91debb"
+}
+2024-02-18 17:00:49,848 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:00:49,848 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:00:49,848 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:00:49,848 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:00:49,848 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:00:49,925 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:00:49,925 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:00:49,925 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:00:49,931 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:00:49,931 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:00:49,931 - log - INFO - 接口请求头 ==>> {
+    "token": "23f61c4085490b649a22dc5daf91debb"
+}
+2024-02-18 17:00:49,931 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:00:49,931 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:00:49,931 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:00:49,931 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:00:49,932 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:00:50,021 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:00:50,021 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:00:50,025 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:00:50,025 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:00:50,025 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:00:50,034 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:00:50,035 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:00:50,035 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:00:50,035 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:00:50,035 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:00:50,137 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:00:50,137 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"admin","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:00:50,140 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:00:50,140 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:00:50,140 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:00:50,140 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:00:50,140 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:00:50,140 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:00:50,140 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:00:50,140 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:00:50,291 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:00:50,291 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15 21:01:44","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:01:07,715 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:01:07,717 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:01:07,717 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:01:07,719 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:01:07,719 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:01:07,722 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 17:01:08,060 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:01:08,066 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:01:08,066 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:01:08,066 - log - INFO - 接口请求头 ==>> {
+    "Token": "5eb2628d15a2062d3e35ee5a9a159c3d"
+}
+2024-02-18 17:01:08,067 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:01:08,067 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:01:08,067 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:01:08,068 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:01:08,068 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:01:08,157 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:01:08,157 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:01:08,158 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:01:08,164 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:01:08,165 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:01:08,165 - log - INFO - 接口请求头 ==>> {
+    "Token": "5eb2628d15a2062d3e35ee5a9a159c3d"
+}
+2024-02-18 17:01:08,165 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:01:08,165 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:01:08,166 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:01:08,166 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:01:08,166 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:01:08,240 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:01:08,240 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:01:08,240 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:01:08,249 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:01:08,249 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:01:08,249 - log - INFO - 接口请求头 ==>> {
+    "Token": "5eb2628d15a2062d3e35ee5a9a159c3d"
+}
+2024-02-18 17:01:08,249 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:01:08,250 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:01:08,250 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:01:08,250 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:01:08,250 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:01:08,327 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:01:08,327 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:01:08,327 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:01:08,334 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:01:08,335 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:01:08,335 - log - INFO - 接口请求头 ==>> {
+    "token": "5eb2628d15a2062d3e35ee5a9a159c3d"
+}
+2024-02-18 17:01:08,335 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:01:08,335 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:01:08,336 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:01:08,336 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:01:08,336 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:01:08,411 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:01:08,411 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:01:08,416 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:01:08,416 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:01:08,416 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:01:08,417 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:01:08,417 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:01:08,417 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:01:08,417 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:01:08,418 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:01:08,525 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:01:08,525 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"admin","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:01:08,529 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:01:08,529 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:01:08,529 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:01:08,531 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:01:08,531 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:01:08,531 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:01:08,531 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:01:08,532 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:01:08,666 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:01:08,666 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15 21:01:44","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:02:59,881 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:02:59,882 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:02:59,882 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:02:59,883 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:02:59,883 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:02:59,884 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 17:03:00,170 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:03:00,174 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:03:00,175 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:00,175 - log - INFO - 接口请求头 ==>> {
+    "Token": "579132c0751df6ef0e8a13766fe754b7"
+}
+2024-02-18 17:03:00,175 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:00,175 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:00,175 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:00,175 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:00,176 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:00,268 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:03:00,268 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:03:00,268 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:03:00,272 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:03:00,272 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:00,272 - log - INFO - 接口请求头 ==>> {
+    "Token": "579132c0751df6ef0e8a13766fe754b7"
+}
+2024-02-18 17:03:00,273 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:00,273 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:00,273 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:00,273 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:00,273 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:00,354 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:03:00,354 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:03:00,354 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:03:00,358 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:03:00,358 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:00,358 - log - INFO - 接口请求头 ==>> {
+    "Token": "579132c0751df6ef0e8a13766fe754b7"
+}
+2024-02-18 17:03:00,358 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:00,359 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:00,359 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:00,359 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:00,359 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:00,441 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:03:00,441 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:03:00,441 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:03:00,445 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:03:00,445 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:00,445 - log - INFO - 接口请求头 ==>> {
+    "token": "579132c0751df6ef0e8a13766fe754b7"
+}
+2024-02-18 17:03:00,446 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:00,446 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:00,446 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:00,446 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:00,446 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:00,525 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:03:00,525 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:03:00,528 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:03:00,528 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:00,528 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:03:00,528 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:03:00,528 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:00,528 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:00,528 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:00,528 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:00,636 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:03:00,636 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"admin","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:03:00,640 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:03:00,640 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:00,640 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:03:00,641 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:00,641 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:00,641 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:00,641 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:00,641 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:00,788 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:03:00,788 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15 21:01:44","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:03:35,010 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:03:35,012 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:03:35,013 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:03:35,014 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:03:35,015 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:03:35,017 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 17:03:35,373 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:03:35,378 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:03:35,379 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:35,379 - log - INFO - 接口请求头 ==>> {
+    "Token": "aee5bf29648200ac0b1517a6db2da7b3"
+}
+2024-02-18 17:03:35,379 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:35,380 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:35,380 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:35,380 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:35,380 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:35,458 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:03:35,458 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:03:35,458 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:03:35,466 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:03:35,466 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:35,466 - log - INFO - 接口请求头 ==>> {
+    "Token": "aee5bf29648200ac0b1517a6db2da7b3"
+}
+2024-02-18 17:03:35,467 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:35,467 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:35,467 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:35,467 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:35,467 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:35,543 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:03:35,543 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:03:35,544 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:03:35,550 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:03:35,550 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:35,550 - log - INFO - 接口请求头 ==>> {
+    "Token": "aee5bf29648200ac0b1517a6db2da7b3"
+}
+2024-02-18 17:03:35,551 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:35,551 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:35,551 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:35,551 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:35,551 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:35,638 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:03:35,639 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:03:35,639 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:03:35,647 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:03:35,647 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:35,647 - log - INFO - 接口请求头 ==>> {
+    "token": "aee5bf29648200ac0b1517a6db2da7b3"
+}
+2024-02-18 17:03:35,647 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:35,648 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:35,648 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:35,648 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:35,648 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:35,737 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:03:35,737 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:03:35,742 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:03:35,742 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:35,742 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:03:35,744 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:03:35,744 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:35,744 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:35,744 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:35,744 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:35,841 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:03:35,841 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"admin","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:03:35,846 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:03:35,846 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:03:35,847 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:03:35,847 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:03:35,848 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:03:35,848 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:03:35,848 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:03:35,849 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:03:35,990 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:03:35,990 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15 21:01:44","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:05:06,135 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:05:06,136 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:05:06,136 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:05:06,137 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:05:06,137 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:05:06,138 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 17:05:06,440 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:05:06,443 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:05:06,443 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:06,443 - log - INFO - 接口请求头 ==>> {
+    "Token": "86343a6f8c453816459ad21ab8f8f772"
+}
+2024-02-18 17:05:06,443 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:06,443 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:06,443 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:06,443 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:06,443 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:06,515 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:05:06,515 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:05:06,516 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:05:06,519 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:05:06,519 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:06,520 - log - INFO - 接口请求头 ==>> {
+    "Token": "86343a6f8c453816459ad21ab8f8f772"
+}
+2024-02-18 17:05:06,520 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:06,520 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:06,520 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:06,520 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:06,520 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:06,591 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:05:06,591 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:05:06,592 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:05:06,596 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:05:06,596 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:06,596 - log - INFO - 接口请求头 ==>> {
+    "Token": "86343a6f8c453816459ad21ab8f8f772"
+}
+2024-02-18 17:05:06,596 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:06,597 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:06,597 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:06,597 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:06,597 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:06,671 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:05:06,671 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:05:06,671 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:05:06,678 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:05:06,678 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:06,678 - log - INFO - 接口请求头 ==>> {
+    "token": "86343a6f8c453816459ad21ab8f8f772"
+}
+2024-02-18 17:05:06,678 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:06,679 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:06,679 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:06,679 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:06,679 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:06,760 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:05:06,760 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:05:06,763 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:05:06,763 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:06,763 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:06,763 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:05:06,763 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:06,763 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:06,763 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:06,763 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:06,861 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:05:06,862 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"admin","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:05:06,865 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:05:06,865 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:06,865 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:06,865 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:06,865 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:06,865 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:06,865 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:06,866 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:07,006 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:05:07,006 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15 21:01:44","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:05:07,012 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/id
+2024-02-18 17:05:07,014 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:05:07,014 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:07,014 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:07,014 - log - INFO - 接口请求体 data 参数 ==>> {
+    "dept": 5,
+    "role": "po",
+    "mobile": "",
+    "realname": "sxj",
+    "email": "1390115692@qq.com",
+    "phone": "15656573433"
+}
+2024-02-18 17:05:07,014 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:07,014 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:07,014 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:07,108 - log - INFO - PUT的响应码 ==>> 404
+2024-02-18 17:05:07,108 - log - INFO - PUT的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:05:07,148 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/id
+2024-02-18 17:05:07,148 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:05:07,148 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:07,148 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:07,149 - log - INFO - 接口请求体 data 参数 ==>> {
+    "realname": "12345"
+}
+2024-02-18 17:05:07,149 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:07,149 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:07,149 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:07,226 - log - INFO - PUT的响应码 ==>> 404
+2024-02-18 17:05:07,226 - log - INFO - PUT的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:05:07,234 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/id
+2024-02-18 17:05:07,234 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:05:07,234 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:07,234 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:07,234 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:07,234 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:07,234 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:07,234 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:07,311 - log - INFO - PUT的响应码 ==>> 404
+2024-02-18 17:05:07,311 - log - INFO - PUT的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:05:31,766 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:05:31,768 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:05:31,768 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:05:31,769 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:05:31,769 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:05:31,770 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 17:05:32,060 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:05:32,063 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:05:32,063 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:32,063 - log - INFO - 接口请求头 ==>> {
+    "Token": "0ce3e9b612ed7094f921f6f62fc4c3ad"
+}
+2024-02-18 17:05:32,063 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:32,063 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:32,063 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:32,063 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:32,063 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:32,135 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:05:32,135 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:05:32,135 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:05:32,139 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:05:32,139 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:32,139 - log - INFO - 接口请求头 ==>> {
+    "Token": "0ce3e9b612ed7094f921f6f62fc4c3ad"
+}
+2024-02-18 17:05:32,139 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:32,139 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:32,139 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:32,139 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:32,140 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:32,214 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:05:32,215 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:05:32,215 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:05:32,219 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:05:32,219 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:32,219 - log - INFO - 接口请求头 ==>> {
+    "Token": "0ce3e9b612ed7094f921f6f62fc4c3ad"
+}
+2024-02-18 17:05:32,219 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:32,219 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:32,219 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:32,219 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:32,220 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:32,317 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:05:32,317 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:05:32,317 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:05:32,324 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:05:32,324 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:32,324 - log - INFO - 接口请求头 ==>> {
+    "token": "0ce3e9b612ed7094f921f6f62fc4c3ad"
+}
+2024-02-18 17:05:32,325 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:32,325 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:32,325 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:32,325 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:32,325 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:32,421 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:05:32,421 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:05:32,424 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:05:32,424 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:32,424 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:32,424 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:05:32,424 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:32,424 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:32,424 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:32,425 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:32,520 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:05:32,520 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"admin","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:05:32,522 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:05:32,523 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:05:32,523 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:32,523 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:32,523 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:32,523 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:32,523 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:32,523 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:32,664 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:05:32,664 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15 21:01:44","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:05:32,671 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:05:32,673 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:05:32,673 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:32,673 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:32,673 - log - INFO - 接口请求体 data 参数 ==>> {
+    "dept": 5,
+    "role": "po",
+    "mobile": "",
+    "realname": "sxj",
+    "email": "1390115692@qq.com",
+    "phone": "15656573433"
+}
+2024-02-18 17:05:32,673 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:32,673 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:32,673 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:32,983 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:05:32,983 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn"}
+2024-02-18 17:05:32,986 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:05:32,986 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:05:32,987 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:32,987 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:32,987 - log - INFO - 接口请求体 data 参数 ==>> {
+    "realname": "12345"
+}
+2024-02-18 17:05:32,987 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:32,987 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:32,987 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:33,161 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:05:33,162 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn"}
+2024-02-18 17:05:33,165 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:05:33,165 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:05:33,165 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:05:33,165 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:05:33,165 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:05:33,165 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:05:33,165 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:05:33,165 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:05:33,364 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:05:33,365 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn"}
+2024-02-18 17:38:36,345 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:38:36,347 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:38:36,347 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:38:36,349 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:38:36,349 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:38:36,352 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 17:38:36,766 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:38:36,774 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:38:36,775 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:38:36,775 - log - INFO - 接口请求头 ==>> {
+    "Token": "c8762f1e9dddef92830803e6e04b9fc0"
+}
+2024-02-18 17:38:36,776 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:38:36,776 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:38:36,776 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:38:36,777 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:38:36,777 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:38:36,855 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:38:36,856 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:38:36,856 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:38:36,863 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:38:36,863 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:38:36,863 - log - INFO - 接口请求头 ==>> {
+    "Token": "c8762f1e9dddef92830803e6e04b9fc0"
+}
+2024-02-18 17:38:36,863 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:38:36,864 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:38:36,864 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:38:36,864 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:38:36,864 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:38:36,946 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:38:36,946 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:38:36,946 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:38:36,960 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:38:36,960 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:38:36,960 - log - INFO - 接口请求头 ==>> {
+    "Token": "c8762f1e9dddef92830803e6e04b9fc0"
+}
+2024-02-18 17:38:36,960 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:38:36,960 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:38:36,960 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:38:36,961 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:38:36,961 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:38:37,042 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:38:37,042 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:38:37,042 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:38:37,049 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:38:37,050 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:38:37,050 - log - INFO - 接口请求头 ==>> {
+    "token": "c8762f1e9dddef92830803e6e04b9fc0"
+}
+2024-02-18 17:38:37,050 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:38:37,050 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:38:37,051 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:38:37,051 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:38:37,051 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:38:37,124 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:38:37,125 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"12345","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:38:37,129 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:38:37,129 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:38:37,129 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:38:37,130 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:38:37,130 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:38:37,130 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:38:37,130 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:38:37,131 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:38:37,227 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:38:37,227 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"12345","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:38:37,236 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:38:37,236 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:38:37,237 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:38:37,237 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:38:37,237 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:38:37,237 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:38:37,237 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:38:37,238 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:38:37,394 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:38:37,394 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"12345","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15 21:01:44","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:39:32,273 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:39:32,274 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:39:32,274 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:39:32,274 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:39:32,274 - log - INFO - 接口请求体 data 参数 ==>> {
+    "dept": 5,
+    "role": "po",
+    "mobile": "",
+    "realname": "sxj",
+    "email": "1390115692@qq.com",
+    "phone": "15656573433"
+}
+2024-02-18 17:39:32,275 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:39:32,275 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:39:32,275 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:41:20,992 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:41:23,024 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"12345","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn"}
+2024-02-18 17:41:53,758 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:41:53,758 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:41:53,759 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:41:53,759 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:41:53,759 - log - INFO - 接口请求体 data 参数 ==>> {
+    "realname": "12345"
+}
+2024-02-18 17:41:53,759 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:41:53,760 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:41:53,760 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:41:53,952 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:41:53,953 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"12345","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn"}
+2024-02-18 17:42:03,087 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:42:03,088 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:42:03,088 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:42:03,089 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:42:03,089 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:42:03,089 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:42:03,090 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:42:03,090 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:42:03,270 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:42:03,270 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"12345","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn"}
+2024-02-18 17:43:50,396 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:43:50,398 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:43:50,398 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:43:50,399 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:43:50,399 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:43:50,400 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}, {'realname': '12345'}, None]}
+2024-02-18 17:43:50,687 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:43:50,690 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:43:50,690 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:43:50,691 - log - INFO - 接口请求头 ==>> {
+    "Token": "c3d336ba70ad4f40503c9defdc8235fe"
+}
+2024-02-18 17:43:50,691 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:43:50,691 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:43:50,691 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:43:50,691 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:43:50,691 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:43:50,775 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:43:50,775 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:43:50,775 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:43:50,781 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:43:50,782 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:43:50,782 - log - INFO - 接口请求头 ==>> {
+    "Token": "c3d336ba70ad4f40503c9defdc8235fe"
+}
+2024-02-18 17:43:50,783 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:43:50,783 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:43:50,783 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:43:50,783 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:43:50,783 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:43:50,872 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:43:50,873 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:43:50,873 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:43:50,883 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:43:50,883 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:43:50,883 - log - INFO - 接口请求头 ==>> {
+    "Token": "c3d336ba70ad4f40503c9defdc8235fe"
+}
+2024-02-18 17:43:50,883 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:43:50,883 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:43:50,883 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:43:50,883 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:43:50,883 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:43:50,969 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:43:50,970 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:43:50,970 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:43:50,975 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:43:50,975 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:43:50,975 - log - INFO - 接口请求头 ==>> {
+    "token": "c3d336ba70ad4f40503c9defdc8235fe"
+}
+2024-02-18 17:43:50,975 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:43:50,975 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:43:50,975 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:43:50,975 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:43:50,975 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:43:51,066 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:43:51,066 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:43:51,069 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:43:51,069 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:43:51,082 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:43:51,082 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:43:51,082 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:43:51,082 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:43:51,082 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:43:51,083 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:43:51,188 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:43:51,188 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"sxj","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:43:51,192 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:43:51,192 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:43:51,192 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:43:51,192 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:43:51,192 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:43:51,192 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:43:51,192 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:43:51,192 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:43:51,342 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:43:51,342 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18 17:43:38","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:43:51,345 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:43:51,345 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:43:51,345 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:43:51,345 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:43:51,345 - log - INFO - 接口请求体 data 参数 ==>> {
+    "dept": 5,
+    "role": "po",
+    "mobile": "",
+    "realname": "sxj",
+    "email": "1390115692@qq.com",
+    "phone": "15656573433"
+}
+2024-02-18 17:43:51,345 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:43:51,345 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:43:51,345 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:43:51,536 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:43:51,537 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn"}
+2024-02-18 17:43:51,541 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:43:51,541 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:43:51,541 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:43:51,541 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:43:51,541 - log - INFO - 接口请求体 data 参数 ==>> {
+    "realname": "12345"
+}
+2024-02-18 17:43:51,541 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:43:51,541 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:43:51,541 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:43:51,712 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:43:51,713 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn"}
+2024-02-18 17:43:51,765 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:43:51,765 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:43:51,766 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:43:51,766 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:43:51,766 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:43:51,766 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:43:51,766 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:43:51,766 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:43:51,966 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:43:51,968 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn"}
+2024-02-18 17:44:16,900 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:44:16,901 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:44:16,901 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:44:16,902 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:44:16,902 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:44:16,903 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}]}
+2024-02-18 17:44:17,189 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:44:17,192 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:44:17,192 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:17,192 - log - INFO - 接口请求头 ==>> {
+    "Token": "a9b2eb6add3f0a4243a0b4b0b841ff9f"
+}
+2024-02-18 17:44:17,192 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:17,192 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:17,193 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:17,193 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:17,193 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:17,272 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:44:17,272 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:44:17,272 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:44:17,278 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:44:17,278 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:17,278 - log - INFO - 接口请求头 ==>> {
+    "Token": "a9b2eb6add3f0a4243a0b4b0b841ff9f"
+}
+2024-02-18 17:44:17,278 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:17,278 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:17,278 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:17,278 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:17,278 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:17,353 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:44:17,353 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:44:17,353 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:44:17,357 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:44:17,357 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:17,357 - log - INFO - 接口请求头 ==>> {
+    "Token": "a9b2eb6add3f0a4243a0b4b0b841ff9f"
+}
+2024-02-18 17:44:17,357 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:17,357 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:17,357 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:17,358 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:17,358 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:17,442 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:44:17,442 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:44:17,442 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:44:17,449 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:44:17,449 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:17,449 - log - INFO - 接口请求头 ==>> {
+    "token": "a9b2eb6add3f0a4243a0b4b0b841ff9f"
+}
+2024-02-18 17:44:17,449 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:17,449 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:17,449 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:17,449 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:17,449 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:17,533 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:44:17,533 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:44:17,535 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:44:17,535 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:17,535 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:44:17,535 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:44:17,536 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:17,536 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:17,536 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:17,536 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:17,667 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:44:17,667 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"sxj","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:44:17,670 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:44:17,670 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:17,670 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:44:17,670 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:17,671 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:17,671 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:17,671 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:17,671 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:17,811 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:44:17,811 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18 17:43:38","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:44:17,814 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:44:17,814 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:44:17,814 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:44:17,814 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:17,814 - log - INFO - 接口请求体 data 参数 ==>> {
+    "dept": 5,
+    "role": "po",
+    "mobile": "",
+    "realname": "sxj",
+    "email": "1390115692@qq.com",
+    "phone": "15656573433"
+}
+2024-02-18 17:44:17,814 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:17,814 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:17,815 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:18,006 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:44:18,006 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn"}
+2024-02-18 17:44:52,367 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:44:52,368 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:44:52,368 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:44:52,368 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:44:52,369 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:44:52,370 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': '123456', 'email': '1390115692@qq.com', 'phone': '15656573433'}]}
+2024-02-18 17:44:52,642 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:44:52,646 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:44:52,646 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:52,646 - log - INFO - 接口请求头 ==>> {
+    "Token": "d114eed496db4525bbac24f58d59a811"
+}
+2024-02-18 17:44:52,646 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:52,646 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:52,646 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:52,646 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:52,648 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:52,722 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:44:52,722 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:44:52,722 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:44:52,728 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:44:52,728 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:52,728 - log - INFO - 接口请求头 ==>> {
+    "Token": "d114eed496db4525bbac24f58d59a811"
+}
+2024-02-18 17:44:52,728 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:52,729 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:52,729 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:52,729 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:52,729 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:52,831 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:44:52,832 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:44:52,832 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:44:52,835 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:44:52,836 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:52,836 - log - INFO - 接口请求头 ==>> {
+    "Token": "d114eed496db4525bbac24f58d59a811"
+}
+2024-02-18 17:44:52,836 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:52,836 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:52,836 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:52,836 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:52,836 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:52,927 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:44:52,927 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:44:52,928 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:44:52,932 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:44:52,932 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:52,932 - log - INFO - 接口请求头 ==>> {
+    "token": "d114eed496db4525bbac24f58d59a811"
+}
+2024-02-18 17:44:52,933 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:52,933 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:52,933 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:52,933 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:52,933 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:53,004 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:44:53,004 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:44:53,007 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:44:53,008 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:53,008 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:44:53,008 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:44:53,008 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:53,008 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:53,008 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:53,008 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:53,108 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:44:53,108 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":0,"account":"admin","realname":"sxj","role":"","pinyin":"admin a","email":"","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:44:53,111 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:44:53,111 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:44:53,111 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:44:53,111 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:53,111 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:44:53,111 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:53,111 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:53,111 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:53,256 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:44:53,256 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18 17:43:38","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:44:53,266 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:44:53,266 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:44:53,266 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:44:53,266 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:44:53,267 - log - INFO - 接口请求体 data 参数 ==>> {
+    "dept": 5,
+    "role": "po",
+    "mobile": "",
+    "realname": "123456",
+    "email": "1390115692@qq.com",
+    "phone": "15656573433"
+}
+2024-02-18 17:44:53,267 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:44:53,267 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:44:53,267 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:44:53,432 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:44:53,432 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":"","realname":"sxj","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn"}
+2024-02-18 17:45:35,941 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:45:35,942 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:45:35,942 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:45:35,942 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:45:35,942 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:45:35,943 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}]}
+2024-02-18 17:45:36,263 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:45:36,266 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:45:36,267 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:45:36,267 - log - INFO - 接口请求头 ==>> {
+    "Token": "705b0c0c2a8834e958d9a6c38f6942c8"
+}
+2024-02-18 17:45:36,267 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:45:36,267 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:45:36,267 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:45:36,267 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:45:36,267 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:45:36,348 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:45:36,348 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:45:36,348 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:45:36,352 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:45:36,352 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:45:36,352 - log - INFO - 接口请求头 ==>> {
+    "Token": "705b0c0c2a8834e958d9a6c38f6942c8"
+}
+2024-02-18 17:45:36,353 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:45:36,353 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:45:36,353 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:45:36,353 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:45:36,353 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:45:36,424 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:45:36,425 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:45:36,425 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:45:36,429 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:45:36,429 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:45:36,429 - log - INFO - 接口请求头 ==>> {
+    "Token": "705b0c0c2a8834e958d9a6c38f6942c8"
+}
+2024-02-18 17:45:36,430 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:45:36,430 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:45:36,430 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:45:36,430 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:45:36,430 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:45:36,505 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:45:36,505 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:45:36,506 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:45:36,511 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:45:36,511 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:45:36,511 - log - INFO - 接口请求头 ==>> {
+    "token": "705b0c0c2a8834e958d9a6c38f6942c8"
+}
+2024-02-18 17:45:36,511 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:45:36,511 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:45:36,511 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:45:36,511 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:45:36,511 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:45:36,592 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:45:36,592 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":5,"account":"admin","role":{"code":"po","name":"\u4ea7\u54c1\u7ecf\u7406"},"realname":"123456","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"1390115692@qq.com","skype":"","qq":"","mobile":"","phone":"15656573433","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:45:36,595 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:45:36,595 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:45:36,595 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:45:36,595 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:45:36,595 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:45:36,595 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:45:36,595 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:45:36,595 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:45:36,695 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:45:36,695 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":5,"account":"admin","realname":"123456","role":"po","pinyin":"admin a","email":"1390115692@qq.com","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:45:36,697 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:45:36,697 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:45:36,697 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:45:36,697 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:45:36,697 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:45:36,698 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:45:36,698 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:45:36,698 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:45:36,854 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:45:36,854 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":5,"account":"admin","role":"po","realname":"123456","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"1390115692@qq.com","skype":"","qq":"","mobile":"","phone":"15656573433","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18 17:43:38","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:45:36,857 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:45:36,857 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:45:36,857 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:45:36,857 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:45:36,858 - log - INFO - 接口请求体 data 参数 ==>> {
+    "dept": 5,
+    "role": "po",
+    "mobile": "",
+    "realname": "sxj",
+    "email": "1390115692@qq.com",
+    "phone": "15656573433"
+}
+2024-02-18 17:45:36,858 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:45:36,858 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:45:36,859 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:45:37,028 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:45:37,028 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":5,"account":"admin","role":"po","realname":"123456","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"1390115692@qq.com","skype":"","qq":"","mobile":"","phone":"15656573433","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn"}
+2024-02-18 17:46:44,312 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:46:44,314 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:46:44,314 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:46:44,316 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:46:44,316 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:46:44,320 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}]}
+2024-02-18 17:46:44,667 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:46:44,673 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:46:44,673 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:46:44,674 - log - INFO - 接口请求头 ==>> {
+    "Token": "a5692d5fc985a6798ef8f179ccff580c"
+}
+2024-02-18 17:46:44,674 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:46:44,674 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:46:44,674 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:46:44,674 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:46:44,675 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:46:44,747 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:46:44,748 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:46:44,748 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:46:44,755 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:46:44,755 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:46:44,756 - log - INFO - 接口请求头 ==>> {
+    "Token": "a5692d5fc985a6798ef8f179ccff580c"
+}
+2024-02-18 17:46:44,756 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:46:44,756 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:46:44,756 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:46:44,756 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:46:44,757 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:46:44,830 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:46:44,830 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:46:44,830 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:46:44,837 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:46:44,838 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:46:44,838 - log - INFO - 接口请求头 ==>> {
+    "Token": "a5692d5fc985a6798ef8f179ccff580c"
+}
+2024-02-18 17:46:44,838 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:46:44,838 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:46:44,838 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:46:44,839 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:46:44,839 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:46:44,917 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:46:44,917 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:46:44,917 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:46:44,925 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:46:44,926 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:46:44,926 - log - INFO - 接口请求头 ==>> {
+    "token": "a5692d5fc985a6798ef8f179ccff580c"
+}
+2024-02-18 17:46:44,926 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:46:44,926 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:46:44,926 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:46:44,926 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:46:44,927 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:46:45,011 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:46:45,011 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":5,"account":"admin","role":{"code":"po","name":"\u4ea7\u54c1\u7ecf\u7406"},"realname":"123456","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"1390115692@qq.com","skype":"","qq":"","mobile":"","phone":"15656573433","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:46:45,016 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:46:45,016 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:46:45,017 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:46:45,017 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:46:45,017 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:46:45,017 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:46:45,017 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:46:45,017 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:46:45,124 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:46:45,124 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":5,"account":"admin","realname":"123456","role":"po","pinyin":"admin a","email":"1390115692@qq.com","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:46:45,132 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:46:45,132 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:46:45,133 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:46:45,133 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:46:45,133 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:46:45,134 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:46:45,134 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:46:45,134 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:46:45,286 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:46:45,286 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":5,"account":"admin","role":"po","realname":"123456","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"1390115692@qq.com","skype":"","qq":"","mobile":"","phone":"15656573433","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18 17:43:38","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:49:18,500 - log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-18 17:49:18,503 - log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-18 17:49:18,503 - log - INFO - 加载D:\code-exercise\test0107\data\departments_data.yml文件.......
+2024-02-18 17:49:18,505 - log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-18 17:49:18,505 - log - INFO - 加载D:\code-exercise\test0107\data\user_info.yml文件.......
+2024-02-18 17:49:18,508 - log - INFO - 读取到数据==> {'user_info': [{'dept': 5, 'role': 'po', 'mobile': '', 'realname': 'sxj', 'email': '1390115692@qq.com', 'phone': '15656573433'}]}
+2024-02-18 17:49:18,846 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-18 17:49:18,852 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-18 17:49:18,852 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:49:18,852 - log - INFO - 接口请求头 ==>> {
+    "Token": "1cd1def84fa3e4f0c28e2262dba64420"
+}
+2024-02-18 17:49:18,853 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:49:18,853 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:49:18,853 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:49:18,853 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:49:18,853 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:49:18,928 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:49:18,928 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:49:18,928 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:49:18,935 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-18 17:49:18,936 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:49:18,936 - log - INFO - 接口请求头 ==>> {
+    "Token": "1cd1def84fa3e4f0c28e2262dba64420"
+}
+2024-02-18 17:49:18,936 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:49:18,936 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:49:18,936 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:49:18,937 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:49:18,937 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:49:19,013 - log - INFO - GET的响应码 ==>> 404
+2024-02-18 17:49:19,013 - log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-18 17:49:19,013 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-18 17:49:19,020 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-18 17:49:19,021 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:49:19,021 - log - INFO - 接口请求头 ==>> {
+    "Token": "1cd1def84fa3e4f0c28e2262dba64420"
+}
+2024-02-18 17:49:19,021 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:49:19,021 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:49:19,022 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:49:19,022 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:49:19,022 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:49:19,122 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:49:19,123 - log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-18 17:49:19,123 - log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-18 17:49:19,130 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-18 17:49:19,130 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:49:19,130 - log - INFO - 接口请求头 ==>> {
+    "token": "1cd1def84fa3e4f0c28e2262dba64420"
+}
+2024-02-18 17:49:19,130 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:49:19,132 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:49:19,132 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:49:19,132 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:49:19,132 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:49:19,209 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:49:19,210 - log - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":5,"account":"admin","role":{"code":"po","name":"\u4ea7\u54c1\u7ecf\u7406"},"realname":"123456","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"1390115692@qq.com","skype":"","qq":"","mobile":"","phone":"15656573433","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-18 17:49:19,217 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users
+2024-02-18 17:49:19,217 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:49:19,217 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:49:19,218 - log - INFO - 接口请求 params 参数 ==>> {
+    "page": 0,
+    "limit": 0
+}
+2024-02-18 17:49:19,218 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:49:19,219 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:49:19,219 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:49:19,219 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:49:19,321 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:49:19,322 - log - INFO - GET的响应内容 ==>> {"page":1,"total":1,"limit":1,"users":[{"id":1,"dept":5,"account":"admin","realname":"123456","role":"po","pinyin":"admin a","email":"1390115692@qq.com","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}]}
+2024-02-18 17:49:19,326 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:49:19,327 - log - INFO - 接口请求方式 ==>> GET
+2024-02-18 17:49:19,327 - log - INFO - 接口请求头 ==>> null
+2024-02-18 17:49:19,327 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:49:19,327 - log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-18 17:49:19,328 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:49:19,328 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:49:19,328 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:49:19,485 - log - INFO - GET的响应码 ==>> 200
+2024-02-18 17:49:19,485 - log - INFO - GET的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":5,"account":"admin","role":"po","realname":"123456","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"1390115692@qq.com","skype":"","qq":"","mobile":"","phone":"15656573433","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18 17:43:38","fails":0,"locked":"0000-00-00 00:00:00","feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn","group":{"13":{"id":13,"project":0,"vision":"rnd","name":"\u9879\u76ee\u7ba1\u7406\u5458","role":"projectAdmin","desc":"\u9879\u76ee\u7ba1\u7406\u5458\u53ef\u4ee5\u7ef4\u62a4\u9879\u76ee\u7684\u6743\u9650","acl":"","developer":"1"}}}
+2024-02-18 17:49:33,818 - log - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/users/1
+2024-02-18 17:49:33,818 - log - INFO - 接口请求方式 ==>> PUT
+2024-02-18 17:49:33,819 - log - INFO - 接口请求头 ==>> {
+    "token": "3427ec62bfbe8526c4823fffd9814204"
+}
+2024-02-18 17:49:33,819 - log - INFO - 接口请求 params 参数 ==>> null
+2024-02-18 17:49:33,819 - log - INFO - 接口请求体 data 参数 ==>> {
+    "dept": 5,
+    "role": "po",
+    "mobile": "",
+    "realname": "sxj",
+    "email": "1390115692@qq.com",
+    "phone": "15656573433"
+}
+2024-02-18 17:49:33,819 - log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-18 17:49:33,819 - log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-18 17:49:33,820 - log - INFO - 接口 cookies 参数 ==>> null
+2024-02-18 17:49:34,013 - log - INFO - PUT的响应码 ==>> 200
+2024-02-18 17:49:34,013 - log - INFO - PUT的响应内容 ==>> {"id":1,"company":0,"type":"inside","dept":5,"account":"admin","role":"po","realname":"123456","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":"0000-00-00","gender":"f","email":"1390115692@qq.com","skype":"","qq":"","mobile":"","phone":"15656573433","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":"0000-00-00","visits":328,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-18T09:43:38Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"online","clientLang":"zh-cn"}

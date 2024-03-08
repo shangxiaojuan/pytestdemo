@@ -1,0 +1,15 @@
+2024-02-16 15:13:47,271 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:13:47,273 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:13:47,273 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:13:47,274 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:13:47,309 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:13:47,309 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:13:47,309 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:13:47,309 - mylogger - INFO - 接口请求 params 参数 ==>> null
+2024-02-16 15:13:47,309 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:13:47,309 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:13:47,309 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:13:47,309 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:13:47,404 - mylogger - INFO - GET请求地址/user
+2024-02-16 15:13:47,404 - mylogger - INFO - GET的响应码 ==>> 401
+2024-02-16 15:13:47,404 - mylogger - INFO - GET的响应内容 ==>> {"error":"Unauthorized"}

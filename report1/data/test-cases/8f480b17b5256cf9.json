@@ -1,0 +1,62 @@
+{
+  "uid" : "8f480b17b5256cf9",
+  "name" : "test_02",
+  "fullName" : "test0205#test_02",
+  "historyId" : "a68a2c3e95d72fd8a0c9e22691b73118",
+  "time" : {
+    "start" : 1709545779318,
+    "stop" : 1709545779318,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(False, reason='不满足条件，需要标记为失败')"
+  }, {
+    "name" : "tag",
+    "value" : "order"
+  }, {
+    "name" : "suite",
+    "value" : "test0205"
+  }, {
+    "name" : "host",
+    "value" : "如梦"
+  }, {
+    "name" : "thread",
+    "value" : "40664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test0205"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "csdn地址",
+    "url" : "https://blog.csdn.net/weixin_60870637/article/details/126974874",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "@pytest.mark.xfail(False, reason='不满足条件，需要标记为失败')", "order" ]
+  },
+  "source" : "8f480b17b5256cf9.json",
+  "parameterValues" : [ ]
+}

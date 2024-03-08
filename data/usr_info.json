@@ -1,0 +1,7 @@
+{
+  "usrname" : "张三",
+  "age" : 18,
+  "tel" : "15656573433",
+  "email": "zhansan@corp.netease.com",
+  "family": ["father","mother","brother"]
+}

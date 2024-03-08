@@ -1,0 +1,48 @@
+2024-02-07 15:53:36,439 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '²âÊÔ´óÀÐ', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-07 15:53:36,588 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-07 15:53:36,748 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-07 15:53:36,877 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '²âÊÔ´óÀÐ', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-07 16:01:59,477 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '²âÊÔ´óÀÐ', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-07 16:01:59,607 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-07 16:01:59,753 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-07 16:01:59,905 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '²âÊÔ´óÀÐ', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-07 16:14:10,479 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '²âÊÔ´óÀÐ', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-07 16:14:10,636 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-07 16:14:10,797 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-07 16:14:10,957 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '²âÊÔ´óÀÐ', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-07 16:14:39,460 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '²âÊÔ´óÀÐ', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-07 16:14:39,595 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-07 16:14:39,729 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-07 16:14:39,881 - D:\code-exercise\test0107\log\20240207.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '²âÊÔ´óÀÐ', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}

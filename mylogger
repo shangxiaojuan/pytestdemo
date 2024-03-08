@@ -1,0 +1,746 @@
+2024-02-16 15:14:05,866 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:14:05,867 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:14:05,867 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:14:05,867 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:14:06,193 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:14:06,196 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:14:06,196 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:14:06,196 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:14:06,196 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "4506dbc1ac0d7a4931056fb201e3915d"
+}
+2024-02-16 15:14:06,196 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:14:06,196 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:14:06,196 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:14:06,196 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:14:06,266 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:14:06,266 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:14:06,266 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:14:06,266 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:14:06,269 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:14:06,269 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:14:06,269 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:14:06,269 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "4506dbc1ac0d7a4931056fb201e3915d"
+}
+2024-02-16 15:14:06,269 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:14:06,270 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:14:06,270 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:14:06,270 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:14:06,342 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:14:06,342 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:14:06,343 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:14:06,343 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:14:06,346 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:14:06,346 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:14:06,346 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:14:06,346 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "4506dbc1ac0d7a4931056fb201e3915d"
+}
+2024-02-16 15:14:06,346 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:14:06,346 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:14:06,346 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:14:06,346 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:14:06,437 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:14:06,437 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:14:06,437 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:14:06,437 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:14:06,441 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:14:06,441 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:14:06,441 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:14:06,441 - mylogger - INFO - 接口请求 params 参数 ==>> null
+2024-02-16 15:14:06,441 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:14:06,441 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:14:06,441 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:14:06,442 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:14:06,503 - mylogger - INFO - GET请求地址/user
+2024-02-16 15:14:06,504 - mylogger - INFO - GET的响应码 ==>> 401
+2024-02-16 15:14:06,504 - mylogger - INFO - GET的响应内容 ==>> {"error":"Unauthorized"}
+2024-02-16 15:16:52,638 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:16:52,639 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:16:52,639 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:16:52,640 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:16:52,908 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:16:52,911 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:16:52,911 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:16:52,911 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:16:52,911 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "24039d8159b10b8393ab52b9a1fde635"
+}
+2024-02-16 15:16:52,911 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:16:52,911 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:16:52,911 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:16:52,911 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:16:52,994 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:16:52,994 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:16:52,994 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:16:52,994 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:16:52,997 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:16:52,997 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:16:52,997 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:16:52,997 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "24039d8159b10b8393ab52b9a1fde635"
+}
+2024-02-16 15:16:52,998 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:16:52,998 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:16:52,998 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:16:52,998 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:16:53,074 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:16:53,075 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:16:53,075 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:16:53,075 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:16:53,078 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:16:53,078 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:16:53,078 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:16:53,078 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "24039d8159b10b8393ab52b9a1fde635"
+}
+2024-02-16 15:16:53,078 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:16:53,078 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:16:53,078 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:16:53,078 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:16:53,150 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:16:53,150 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:16:53,150 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:16:53,150 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:16:53,158 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:16:53,160 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:16:53,160 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:16:53,160 - mylogger - INFO - 接口请求 params 参数 ==>> null
+2024-02-16 15:16:53,160 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:16:53,160 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:16:53,160 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:16:53,160 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:16:53,235 - mylogger - INFO - GET请求地址/user
+2024-02-16 15:16:53,235 - mylogger - INFO - GET的响应码 ==>> 401
+2024-02-16 15:16:53,235 - mylogger - INFO - GET的响应内容 ==>> {"error":"Unauthorized"}
+2024-02-16 15:20:36,360 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:20:36,360 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:20:36,360 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:20:36,361 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:20:36,685 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:20:36,688 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:20:36,688 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:20:36,688 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:20:36,688 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "59e2826f4b7b484d88fca65d291b3c6b"
+}
+2024-02-16 15:20:36,689 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:20:36,689 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:20:36,689 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:20:36,689 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:20:36,787 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:20:36,787 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:20:36,787 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:20:36,787 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:20:36,790 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:20:36,791 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:20:36,791 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:20:36,791 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "59e2826f4b7b484d88fca65d291b3c6b"
+}
+2024-02-16 15:20:36,791 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:20:36,791 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:20:36,791 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:20:36,791 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:20:36,889 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:20:36,889 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:20:36,890 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:20:36,890 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:20:36,894 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:20:36,894 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:20:36,894 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:20:36,894 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "59e2826f4b7b484d88fca65d291b3c6b"
+}
+2024-02-16 15:20:36,894 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:20:36,894 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:20:36,894 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:20:36,894 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:20:36,973 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:20:36,974 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:20:36,974 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:20:36,974 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:20:36,978 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:20:36,978 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:20:36,979 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:20:36,979 - mylogger - INFO - 接口请求 params 参数 ==>> null
+2024-02-16 15:20:36,979 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:20:36,979 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:20:36,979 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:20:36,979 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:20:37,050 - mylogger - INFO - GET请求地址/user
+2024-02-16 15:20:37,050 - mylogger - INFO - GET的响应码 ==>> 401
+2024-02-16 15:20:37,050 - mylogger - INFO - GET的响应内容 ==>> {"error":"Unauthorized"}
+2024-02-16 15:21:47,026 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:21:47,028 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:21:47,028 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:21:47,030 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:21:47,353 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:30:58,836 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:30:58,837 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:30:58,837 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:30:58,839 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:30:59,104 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:30:59,106 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:30:59,107 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:30:59,107 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:30:59,107 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "86b773702ecb3b2fbac0e1bab40bb5e7"
+}
+2024-02-16 15:30:59,107 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:30:59,107 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:30:59,107 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:30:59,107 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:30:59,186 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:30:59,186 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:30:59,186 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:30:59,186 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:30:59,190 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:30:59,190 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:30:59,190 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:30:59,190 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "86b773702ecb3b2fbac0e1bab40bb5e7"
+}
+2024-02-16 15:30:59,190 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:30:59,190 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:30:59,190 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:30:59,190 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:30:59,262 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:30:59,262 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:30:59,262 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:30:59,262 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:30:59,266 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:30:59,266 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:30:59,266 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:30:59,266 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "86b773702ecb3b2fbac0e1bab40bb5e7"
+}
+2024-02-16 15:30:59,266 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:30:59,266 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:30:59,266 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:30:59,266 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:30:59,336 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:30:59,336 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:30:59,336 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:30:59,337 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:30:59,341 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:30:59,341 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:30:59,341 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:30:59,341 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "86b773702ecb3b2fbac0e1bab40bb5e7"
+}
+2024-02-16 15:30:59,341 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:30:59,341 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:30:59,341 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:30:59,341 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:30:59,407 - mylogger - INFO - GET请求地址/user
+2024-02-16 15:30:59,407 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:30:59,407 - mylogger - INFO - GET的响应内容 ==>> {"error":"not found"}
+2024-02-16 15:33:34,220 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:33:34,222 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:33:34,223 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:33:34,224 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:33:34,554 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:33:46,851 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:33:46,853 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:33:46,853 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:33:46,855 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:33:47,171 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:33:47,175 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:33:47,175 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:33:47,175 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:33:47,175 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "60e79f76512868de9e198d97b6bb2fb6"
+}
+2024-02-16 15:33:47,175 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:33:47,176 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:33:47,176 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:33:47,176 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:33:47,266 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:33:47,266 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:33:47,266 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:33:47,266 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:33:47,272 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:33:47,272 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:33:47,272 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:33:47,272 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "60e79f76512868de9e198d97b6bb2fb6"
+}
+2024-02-16 15:33:47,272 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:33:47,272 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:33:47,273 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:33:47,273 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:33:47,345 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:33:47,345 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:33:47,345 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:33:47,345 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:33:47,352 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:33:47,352 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:33:47,352 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:33:47,352 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "60e79f76512868de9e198d97b6bb2fb6"
+}
+2024-02-16 15:33:47,352 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:33:47,352 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:33:47,353 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:33:47,353 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:33:47,424 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:33:47,424 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:33:47,424 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:33:47,424 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:34:38,784 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:34:38,785 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:34:38,785 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:34:38,786 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:34:39,025 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:34:39,028 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:34:39,028 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:34:39,028 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:34:39,028 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "f0e7d7e5d013fc8fecc0a9d2ca2922a7"
+}
+2024-02-16 15:34:39,028 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:34:39,029 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:34:39,029 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:34:39,029 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:34:39,125 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:34:39,125 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:34:39,125 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:34:39,125 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:34:39,128 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:34:39,129 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:34:39,129 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:34:39,129 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "f0e7d7e5d013fc8fecc0a9d2ca2922a7"
+}
+2024-02-16 15:34:39,129 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:34:39,129 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:34:39,129 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:34:39,129 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:34:39,220 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:34:39,220 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:34:39,220 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:34:39,221 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:34:39,224 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:34:39,224 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:34:39,224 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:34:39,224 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "f0e7d7e5d013fc8fecc0a9d2ca2922a7"
+}
+2024-02-16 15:34:39,224 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:34:39,224 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:34:39,224 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:34:39,224 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:34:39,295 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:34:39,296 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:34:39,296 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:34:39,296 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:34:39,300 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:34:39,300 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:34:39,300 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:34:39,300 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "f0e7d7e5d013fc8fecc0a9d2ca2922a7"
+}
+2024-02-16 15:34:39,300 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:34:39,300 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:34:39,300 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:34:39,300 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:34:39,394 - mylogger - INFO - GET请求地址user
+2024-02-16 15:34:39,394 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:34:39,394 - mylogger - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-16 15:35:32,541 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:35:32,542 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:35:32,542 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:35:32,543 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:35:32,782 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:35:32,787 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:35:32,787 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:35:32,787 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:35:32,787 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "f358e313fe883929bc29a7d3d1eb9366"
+}
+2024-02-16 15:35:32,787 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:35:32,787 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:35:32,787 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:35:32,787 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:35:32,859 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:35:32,859 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:35:32,859 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:35:32,859 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:35:32,863 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:35:32,863 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:35:32,863 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:35:32,863 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "f358e313fe883929bc29a7d3d1eb9366"
+}
+2024-02-16 15:35:32,863 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:35:32,863 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:35:32,863 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:35:32,863 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:35:32,931 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:35:32,931 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:35:32,931 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:35:32,931 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:35:32,934 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:35:32,934 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:35:32,934 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:35:32,934 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "f358e313fe883929bc29a7d3d1eb9366"
+}
+2024-02-16 15:35:32,934 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:35:32,934 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:35:32,935 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:35:32,935 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:35:33,012 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:35:33,012 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:35:33,012 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:35:33,012 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:35:33,022 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:35:33,023 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:35:33,023 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:35:33,023 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "f358e313fe883929bc29a7d3d1eb9366"
+}
+2024-02-16 15:35:33,023 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:35:33,023 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:35:33,023 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:35:33,023 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:35:33,107 - mylogger - INFO - GET请求地址user
+2024-02-16 15:35:33,107 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:35:33,107 - mylogger - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-16 15:35:51,110 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:35:51,112 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:35:51,112 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:35:51,114 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:35:51,429 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:35:51,435 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:35:51,435 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:35:51,435 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:35:51,436 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "b1d872ee02dc3a02d6af88fa0af910fb"
+}
+2024-02-16 15:35:51,436 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:35:51,436 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:35:51,436 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:35:51,436 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:35:51,508 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:35:51,508 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:35:51,509 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:35:51,509 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:35:51,514 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:35:51,515 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:35:51,515 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:35:51,515 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "b1d872ee02dc3a02d6af88fa0af910fb"
+}
+2024-02-16 15:35:51,515 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:35:51,515 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:35:51,515 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:35:51,516 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:35:51,587 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:35:51,587 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:35:51,587 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:35:51,587 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:35:51,594 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:35:51,594 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:35:51,595 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:35:51,595 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "b1d872ee02dc3a02d6af88fa0af910fb"
+}
+2024-02-16 15:35:51,595 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:35:51,595 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:35:51,595 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:35:51,595 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:35:51,668 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:35:51,668 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:35:51,668 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:35:51,669 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:35:53,478 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:35:53,478 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:35:53,480 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:35:53,480 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "b1d872ee02dc3a02d6af88fa0af910fb"
+}
+2024-02-16 15:35:53,480 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:35:53,480 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:35:53,480 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:35:53,481 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:35:53,553 - mylogger - INFO - GET请求地址user
+2024-02-16 15:35:53,553 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:35:53,553 - mylogger - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-16 15:41:32,564 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:41:32,565 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:41:32,565 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:41:32,565 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:41:32,820 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:41:32,823 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:41:32,823 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:41:32,823 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:41:32,823 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "d0a3239a92ed2aa5534fb254556324af"
+}
+2024-02-16 15:41:32,823 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:41:32,823 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:41:32,823 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:41:32,824 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:41:32,894 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:41:32,895 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:41:32,895 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:41:32,895 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:41:32,898 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:41:32,898 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:41:32,898 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:41:32,898 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "d0a3239a92ed2aa5534fb254556324af"
+}
+2024-02-16 15:41:32,898 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:41:32,898 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:41:32,899 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:41:32,899 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:41:32,969 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:41:32,969 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:41:32,969 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:41:32,970 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:41:32,973 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:41:32,973 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:41:32,973 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:41:32,973 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "d0a3239a92ed2aa5534fb254556324af"
+}
+2024-02-16 15:41:32,973 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:41:32,973 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:41:32,973 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:41:32,973 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:41:33,060 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:41:33,060 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:41:33,060 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:41:33,060 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:41:33,069 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:41:33,069 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:41:33,069 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:41:33,069 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "d0a3239a92ed2aa5534fb254556324af"
+}
+2024-02-16 15:41:33,069 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:41:33,069 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:41:33,069 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:41:33,071 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:41:33,142 - mylogger - INFO - GET请求地址user
+2024-02-16 15:41:33,142 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:41:33,142 - mylogger - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-16 15:42:36,680 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:42:36,681 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:42:36,681 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:42:36,681 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:42:36,929 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:42:36,932 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:42:36,932 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:42:36,932 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:42:36,932 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "5ee05fb23c573d9e86576c4313374274"
+}
+2024-02-16 15:42:36,932 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:42:36,933 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:42:36,933 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:42:36,933 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:42:37,015 - mylogger - INFO - GET请求地址departments/字符
+2024-02-16 15:42:37,015 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:42:37,015 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:42:37,015 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:42:37,019 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:42:37,019 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:42:37,020 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:42:37,020 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "5ee05fb23c573d9e86576c4313374274"
+}
+2024-02-16 15:42:37,020 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:42:37,020 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:42:37,020 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:42:37,020 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:42:37,089 - mylogger - INFO - GET请求地址departments/zifu
+2024-02-16 15:42:37,090 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:42:37,090 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:42:37,090 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:42:37,093 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:42:37,093 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:42:37,093 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:42:37,094 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "5ee05fb23c573d9e86576c4313374274"
+}
+2024-02-16 15:42:37,094 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:42:37,094 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:42:37,094 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:42:37,094 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:42:37,166 - mylogger - INFO - GET请求地址departments/1
+2024-02-16 15:42:37,167 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:42:37,167 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:42:37,167 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:42:37,171 - mylogger - INFO - 接口请求地址 ==>> GET
+2024-02-16 15:42:37,172 - mylogger - INFO - 接口请求方式 ==>> None
+2024-02-16 15:42:37,172 - mylogger - INFO - 接口请求头 ==>> null
+2024-02-16 15:42:37,172 - mylogger - INFO - 接口请求 params 参数 ==>> {
+    "Token": "5ee05fb23c573d9e86576c4313374274"
+}
+2024-02-16 15:42:37,172 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:42:37,172 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:42:37,172 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:42:37,172 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:42:37,246 - mylogger - INFO - GET请求地址user
+2024-02-16 15:42:37,246 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:42:37,246 - mylogger - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}
+2024-02-16 15:47:47,950 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:47:47,953 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:47:47,953 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:47:47,955 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:47:48,283 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:48:58,176 - mylogger - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-16 15:48:58,177 - mylogger - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-16 15:48:58,177 - mylogger - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-16 15:48:58,178 - mylogger - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-16 15:48:58,434 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-16 15:48:58,436 - mylogger - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/字符
+2024-02-16 15:48:58,437 - mylogger - INFO - 接口请求方式 ==>> GET
+2024-02-16 15:48:58,437 - mylogger - INFO - 接口请求头 ==>> {
+    "Token": "b94f17b7ec99b8bef2203b48b784b8f8"
+}
+2024-02-16 15:48:58,437 - mylogger - INFO - 接口请求 params 参数 ==>> null
+2024-02-16 15:48:58,437 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:48:58,437 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:48:58,437 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:48:58,437 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:48:58,507 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:48:58,508 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:48:58,508 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:48:58,511 - mylogger - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+2024-02-16 15:48:58,511 - mylogger - INFO - 接口请求方式 ==>> GET
+2024-02-16 15:48:58,511 - mylogger - INFO - 接口请求头 ==>> {
+    "Token": "b94f17b7ec99b8bef2203b48b784b8f8"
+}
+2024-02-16 15:48:58,511 - mylogger - INFO - 接口请求 params 参数 ==>> null
+2024-02-16 15:48:58,512 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:48:58,512 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:48:58,512 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:48:58,512 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:48:58,581 - mylogger - INFO - GET的响应码 ==>> 404
+2024-02-16 15:48:58,581 - mylogger - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-16 15:48:58,581 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-16 15:48:58,584 - mylogger - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/departments/1
+2024-02-16 15:48:58,584 - mylogger - INFO - 接口请求方式 ==>> GET
+2024-02-16 15:48:58,584 - mylogger - INFO - 接口请求头 ==>> {
+    "Token": "b94f17b7ec99b8bef2203b48b784b8f8"
+}
+2024-02-16 15:48:58,584 - mylogger - INFO - 接口请求 params 参数 ==>> null
+2024-02-16 15:48:58,584 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:48:58,584 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:48:58,584 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:48:58,584 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:48:58,682 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:48:58,682 - mylogger - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-16 15:48:58,682 - mylogger - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-16 15:48:58,692 - mylogger - INFO - 接口请求地址 ==>> http://127.0.0.1:81/zentao/api.php/v1/user
+2024-02-16 15:48:58,692 - mylogger - INFO - 接口请求方式 ==>> GET
+2024-02-16 15:48:58,692 - mylogger - INFO - 接口请求头 ==>> {
+    "Token": "b94f17b7ec99b8bef2203b48b784b8f8"
+}
+2024-02-16 15:48:58,693 - mylogger - INFO - 接口请求 params 参数 ==>> null
+2024-02-16 15:48:58,693 - mylogger - INFO - 接口请求体 data 参数 ==>> null
+2024-02-16 15:48:58,693 - mylogger - INFO - 接口请求体 json 参数 ==>> null
+2024-02-16 15:48:58,693 - mylogger - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-16 15:48:58,693 - mylogger - INFO - 接口 cookies 参数 ==>> null
+2024-02-16 15:48:58,791 - mylogger - INFO - GET的响应码 ==>> 200
+2024-02-16 15:48:58,791 - mylogger - INFO - GET的响应内容 ==>> {"profile":{"id":1,"company":0,"type":"inside","dept":0,"account":"admin","role":{"code":"","name":""},"realname":"admin","pinyin":"admin a","nickname":"","commiter":"","avatar":"","birthday":null,"gender":"f","email":"","skype":"","qq":"","mobile":"","phone":"","weixin":"","dingding":"","slack":"","whatsapp":"","address":"","zipcode":"","nature":"","analysis":"","strategy":"","join":null,"visits":319,"visions":"rnd,lite","ip":"127.0.0.1","last":"2024-02-15T13:01:44Z","fails":0,"locked":null,"feedback":"0","ranzhi":"","ldap":"","score":0,"scoreLevel":0,"resetToken":"","deleted":"0","clientStatus":"offline","clientLang":"zh-cn","admin":true,"superReviewer":false,"view":{"account":"admin","programs":"2,4","products":"1,2,3,7,8,9,10,11,13,14,15,4,5,6,12","projects":"1,3","sprints":""}}}

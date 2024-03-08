@@ -1,0 +1,17 @@
+edit_user_info:
+#参数全部传入
+  - dept: 5
+    role: "po"
+    mobile: ""
+    realname: "dddd"
+    email: "1390115692@qq.com"
+    phone: "15656573433"
+#仅传名称
+  - realname: "12345"
+#什么也不传
+
+add_user_info:
+  - account: $username
+    password: "123qwe!@#"
+    realname: $realname
+    role: "qa"

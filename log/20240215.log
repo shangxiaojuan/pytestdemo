@@ -1,0 +1,160 @@
+2024-02-15 17:27:41,780 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-15 17:27:41,783 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:27:57,773 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-15 17:27:57,774 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:29:00,626 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107\data\base_data.yml文件.......
+2024-02-15 17:29:00,627 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:45:29,874 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-15 17:45:29,875 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:45:29,875 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-15 17:45:29,875 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-15 17:45:46,668 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-15 17:45:46,669 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:45:46,669 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-15 17:45:46,669 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-15 17:47:44,377 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-15 17:47:44,377 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:47:44,377 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-15 17:47:44,379 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-15 17:47:44,646 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-15 17:49:58,556 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-15 17:49:58,557 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:49:58,557 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-15 17:49:58,558 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-15 17:49:58,796 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-15 17:50:13,786 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-15 17:50:13,789 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:50:13,789 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-15 17:50:13,791 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-15 17:50:22,748 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-15 17:50:43,442 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-15 17:50:43,445 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:50:43,445 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-15 17:50:43,447 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-15 17:50:43,763 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-15 17:53:30,895 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-15 17:53:30,898 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:53:30,898 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-15 17:53:30,900 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-15 17:53:31,201 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-15 17:53:44,430 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求地址 ==>> GET
+2024-02-15 17:53:44,431 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求方式 ==>> None
+2024-02-15 17:53:44,431 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求头 ==>> null
+2024-02-15 17:53:44,431 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求 params 参数 ==>> {
+    "Token": "b4854de696e69b347ad60addb29f9b93"
+}
+2024-02-15 17:53:44,432 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-15 17:53:44,432 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-15 17:53:44,432 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-15 17:53:44,432 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口 cookies 参数 ==>> null
+2024-02-15 17:54:11,886 - D:\code-exercise\test0107\log\20240215.log - INFO - GET请求地址departments/字符
+2024-02-15 17:54:40,210 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应码 ==>> 404
+2024-02-15 17:54:41,050 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-15 17:54:55,297 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-15 17:55:04,773 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求地址 ==>> GET
+2024-02-15 17:55:04,773 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求方式 ==>> None
+2024-02-15 17:55:04,774 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求头 ==>> null
+2024-02-15 17:55:04,774 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求 params 参数 ==>> {
+    "Token": "b4854de696e69b347ad60addb29f9b93"
+}
+2024-02-15 17:55:04,774 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-15 17:55:04,774 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-15 17:55:04,774 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-15 17:55:04,775 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口 cookies 参数 ==>> null
+2024-02-15 17:55:04,859 - D:\code-exercise\test0107\log\20240215.log - INFO - GET请求地址departments/zifu
+2024-02-15 17:55:04,859 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应码 ==>> 404
+2024-02-15 17:55:04,859 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-15 17:55:04,859 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-15 17:55:13,689 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求地址 ==>> GET
+2024-02-15 17:55:13,689 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求方式 ==>> None
+2024-02-15 17:55:13,689 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求头 ==>> null
+2024-02-15 17:55:13,691 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求 params 参数 ==>> {
+    "Token": "b4854de696e69b347ad60addb29f9b93"
+}
+2024-02-15 17:55:13,691 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-15 17:55:13,691 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-15 17:55:13,692 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-15 17:55:13,692 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口 cookies 参数 ==>> null
+2024-02-15 17:55:13,765 - D:\code-exercise\test0107\log\20240215.log - INFO - GET请求地址departments/1
+2024-02-15 17:55:13,766 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应码 ==>> 200
+2024-02-15 17:55:13,766 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-15 17:55:13,766 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}
+2024-02-15 17:56:49,705 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-15 17:56:49,707 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:56:49,707 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-15 17:56:49,709 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-15 17:56:50,038 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-15 17:57:35,982 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求地址 ==>> GET
+2024-02-15 17:59:38,432 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/base_data.yml文件.......
+2024-02-15 17:59:38,433 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'login_info': {'username': 'admin', 'password': 'Amydsxj@2024'}, 'env_info': {'ip': '127.0.0.1', 'port': 81}}
+2024-02-15 17:59:38,433 - D:\code-exercise\test0107\log\20240215.log - INFO - 加载D:\code-exercise\test0107/data/departments_data.yml文件.......
+2024-02-15 17:59:38,434 - D:\code-exercise\test0107\log\20240215.log - INFO - 读取到数据==> {'get_departments_id': [['字符', 404], ['zifu', 404], ['1', 200]]}
+2024-02-15 17:59:38,680 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments
+ status_code:200
+ Response:[{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': '', 'managerName': ''}]
+2024-02-15 17:59:38,684 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求地址 ==>> GET
+2024-02-15 17:59:38,684 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求方式 ==>> None
+2024-02-15 17:59:38,684 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求头 ==>> null
+2024-02-15 17:59:38,684 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求 params 参数 ==>> {
+    "Token": "202d19f98d22dd47bc441ab197e6b39c"
+}
+2024-02-15 17:59:38,684 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-15 17:59:38,684 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-15 17:59:38,684 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-15 17:59:38,685 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口 cookies 参数 ==>> null
+2024-02-15 17:59:38,756 - D:\code-exercise\test0107\log\20240215.log - INFO - GET请求地址departments/字符
+2024-02-15 17:59:38,756 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应码 ==>> 404
+2024-02-15 17:59:38,756 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-15 17:59:38,756 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/%E5%AD%97%E7%AC%A6
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-15 17:59:38,760 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求地址 ==>> GET
+2024-02-15 17:59:38,760 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求方式 ==>> None
+2024-02-15 17:59:38,760 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求头 ==>> null
+2024-02-15 17:59:38,760 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求 params 参数 ==>> {
+    "Token": "202d19f98d22dd47bc441ab197e6b39c"
+}
+2024-02-15 17:59:38,760 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-15 17:59:38,760 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-15 17:59:38,760 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-15 17:59:38,760 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口 cookies 参数 ==>> null
+2024-02-15 17:59:38,850 - D:\code-exercise\test0107\log\20240215.log - INFO - GET请求地址departments/zifu
+2024-02-15 17:59:38,850 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应码 ==>> 404
+2024-02-15 17:59:38,850 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应内容 ==>> {"error":"404 Not found"}
+2024-02-15 17:59:38,851 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/zifu
+ status_code:404
+ Response:{'error': '404 Not found'}
+2024-02-15 17:59:38,854 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求地址 ==>> GET
+2024-02-15 17:59:38,854 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求方式 ==>> None
+2024-02-15 17:59:38,854 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求头 ==>> null
+2024-02-15 17:59:38,854 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求 params 参数 ==>> {
+    "Token": "202d19f98d22dd47bc441ab197e6b39c"
+}
+2024-02-15 17:59:38,854 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 data 参数 ==>> null
+2024-02-15 17:59:38,854 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口请求体 json 参数 ==>> null
+2024-02-15 17:59:38,855 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口上传附件 files 参数 ==>> None
+2024-02-15 17:59:38,855 - D:\code-exercise\test0107\log\20240215.log - INFO - 接口 cookies 参数 ==>> null
+2024-02-15 17:59:38,945 - D:\code-exercise\test0107\log\20240215.log - INFO - GET请求地址departments/1
+2024-02-15 17:59:38,945 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应码 ==>> 200
+2024-02-15 17:59:38,945 - D:\code-exercise\test0107\log\20240215.log - INFO - GET的响应内容 ==>> {"id":1,"name":"\u6d4b\u8bd5\u5927\u4f6c","parent":0,"path":",1,","grade":1,"order":10,"position":"","function":"","manager":""}
+2024-02-15 17:59:38,945 - D:\code-exercise\test0107\log\20240215.log - INFO - url:http://127.0.0.1:81/zentao/api.php/v1/departments/1
+ status_code:200
+ Response:{'id': 1, 'name': '测试大佬', 'parent': 0, 'path': ',1,', 'grade': 1, 'order': 10, 'position': '', 'function': '', 'manager': ''}

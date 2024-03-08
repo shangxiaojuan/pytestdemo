@@ -1,0 +1,60 @@
+{
+  "a68a2c3e95d72fd8a0c9e22691b73118" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f480b17b5256cf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709545779318,
+        "stop" : 1709545779318,
+        "duration" : 0
+      }
+    } ]
+  },
+  "820ddc57e31cddf662dd56ffdeaae8d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aff573e28cc26d6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709545779320,
+        "stop" : 1709545779320,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9ff6eacd3ee6f83af6b132caea6beb17" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a46f0224a5ebdcd6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 满足2>1",
+      "time" : {
+        "start" : 1709545779315,
+        "stop" : 1709545779315,
+        "duration" : 0
+      }
+    } ]
+  }
+}

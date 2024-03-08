@@ -1,0 +1,6 @@
+get_departments_id:
+  # 期望结果,期望返回码,期望返回信息
+  # except_result, except_code, except_msg
+  - ["字符", 404]
+  - ["zifu",404]
+  - ["1",200]
